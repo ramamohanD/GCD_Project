@@ -53,42 +53,40 @@ The following files are available for the train and test data. Their description
 
 ###Measurements on the mean and standard deviation
 
-|mean|Standard deviation|
-|-------------:|------------:|
-|tbodyaccmeanx|tbodyaccstdx| 
-|tbodyaccmeany|tbodyaccstdy| 
-|tbodyaccmeanz |tbodyaccstdz |
-|tgravityaccmeanx | tgravityaccstdx|
-|tgravityaccmeany|tgravityaccstdy |
-|tgravityaccmeanz|tgravityaccstdz|
-|tbodyaccjerkmeanx|tbodyaccjerkstdx|
-|tbodyaccjerkmeany|tbodyaccjerkstdy|
-|tbodyaccjerkmeanz|tbodyaccjerkstdz|
-|tbodygyromeanx|tbodygyrostdx|
-   |tbodygyromeany|tbodygyrostdy|
- |tbodygyromeanz|tbodygyrostdz|
- |tbodygyrojerkmeany|tbodygyrojerkstdx|
- |tbodygyrojerkmeanx|tbodygyrojerkstdy|
- |tbodygyrojerkmeanz|tbodygyrojerkstdz|
- |tbodyaccmagmean|tbodyaccmagstd|
- |tgravityaccmagmean|tgravityaccmagstd|
- |tbodyaccjerkmagmean|tbodyaccjerkmagstd|
- |tbodygyromagmean|tbodygyromagstd|
- |tbodygyrojerkmagmean|tbodygyrojerkmagstd|
- |fbodyaccmeanx|fbodyaccstdx|
- |fbodyaccmeany|fbodyaccstdy|
- |fbodyaccmeanz|fbodyaccstdz|
- |fbodyaccjerkmeanx|fbodyaccjerkstdx|
- |fbodyaccjerkmeany|fbodyaccjerkstdy|
- |fbodyaccjerkmeanz|fbodyaccjerkstdz|
- |fbodygyromeanx|fbodygyrostdx|
- |fbodygyromeany|fbodygyrostdy|
- |fbodygyromeanz|fbodygyrostdz|
-|fbodyaccmagmean|fbodyaccmagstd|
-|fbodybodyaccjerkmagmean|fbodybodyaccjerkmagstd|
-|fbodybodygyromagmean|fbodybodygyromagstd|
-|fbodybodygyrojerkmagmean|fbodybodygyrojerkmagstd| 
-
+-  tbodyaccmeanx, tbodyaccstdx
+-	tbodyaccmeany, tbodyaccstdy
+-	tbodyaccmeanz, tbodyaccstdz
+-	tgravityaccmeanx, tgravityaccstdx
+-	tgravityaccmeany, tgravityaccstdy
+-	tgravityaccmeanz, tgravityaccstdz
+-	tbodyaccjerkmeanx, tbodyaccjerkstdx
+-	tbodyaccjerkmeany, tbodyaccjerkstdy
+-	tbodyaccjerkmeanz, tbodyaccjerkstdz
+-	tbodygyromeanx, tbodygyrostdx
+-	tbodygyromeany, tbodygyrostdy
+-	tbodygyromeanz, tbodygyrostdz
+-	tbodygyrojerkmeany, tbodygyrojerkstdx
+-	tbodygyrojerkmeanx, tbodygyrojerkstdy
+-	tbodygyrojerkmeanz, tbodygyrojerkstdz
+-	tbodyaccmagmean, tbodyaccmagstd
+-	tgravityaccmagmean, tgravityaccmagstd
+-	tbodyaccjerkmagmean, tbodyaccjerkmagstd
+-	tbodygyromagmean, tbodygyromagstd
+-	tbodygyrojerkmagmean, tbodygyrojerkmagstd
+-	fbodyaccmeanx, fbodyaccstdx
+-	fbodyaccmeany, fbodyaccstdy
+-	fbodyaccmeanz, fbodyaccstdz
+-	fbodyaccjerkmeanx, fbodyaccjerkstdx
+-	fbodyaccjerkmeany, fbodyaccjerkstdy
+-	fbodyaccjerkmeanz, fbodyaccjerkstdz
+-	fbodygyromeanx, fbodygyrostdx
+-	fbodygyromeany, fbodygyrostdy
+-	fbodygyromeanz, fbodygyrostdz
+-	fbodyaccmagmean, fbodyaccmagstd
+-	fbodybodyaccjerkmagmean, fbodybodyaccjerkmagstd
+-	fbodybodygyromagmean, fbodybodygyromagstd
+-	fbodybodygyrojerkmagmean, fbodybodygyrojerkmagstd
+ 
 ###Feature selection
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
